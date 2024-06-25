@@ -20,5 +20,6 @@ function userr(username, loginCount, isLoggedIn)
     return this;
 }
 
-const suerOne = userr('abhigyan', 22, true)
-console.log(suerOne);
+const userOne = new userr('abhigyan', 22, true)
+const userTwo = new userr('abhi',22,false)
+console.log(userOne.constructor);
